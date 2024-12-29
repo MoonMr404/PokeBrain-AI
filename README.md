@@ -1,4 +1,4 @@
-![alt text] (logo.png)
+![alt text](logo.png)
 
 # PokeBrain AI
 L'obiettivo del progetto è quello di creare un AI in grado di competere su Pokemon Showdown.
