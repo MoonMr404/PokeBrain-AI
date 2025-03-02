@@ -72,6 +72,32 @@ npm install
 cp config/config-example.js config/config.js
 node pokemon-showdown start --no-security
 ```
+# PokeBrain
+
+PokeBrain è un agente intelligente progettato per affrontare avversari in Pokémon Showdown utilizzando il modello Minimax.
+
+## Struttura
+
+L'agente utilizza una struttura ad albero per modellare le possibili decisioni di gioco:
+
+- **Radice**: rappresenta lo stato iniziale della partita.
+- **Nodi**: rappresentano gli stati futuri del gioco. Ogni nodo include un array `opponentTeam` che contiene la squadra avversaria, permettendo così di ottenere un ambiente deterministico e migliorare la valutazione e le previsioni durante l'esplorazione dell'albero.
+- **Valutazione**: ogni nodo viene valutato sulla base di diversi parametri, tra cui:
+  - Danni subiti dal proprio team
+  - Danni inflitti alla squadra avversaria
+  - Efficacia della mossa selezionata
+
+## Componenti
+
+- **Poke_Brain**: modulo principale che implementa la logica dell'agente intelligente e la costruzione dell'albero di decisione.
+- **Documentation**: sezione contenente informazioni dettagliate su diversi aspetti del progetto, tra cui:
+  PokeBrain.pdf:
+  - Meccaniche e caratteristiche dei Pokémon
+  - Struttura e funzionamento di Pokémon Showdown
+  - Descrizione della libreria utilizzata per l'interazione con il gioco
+  - Dettagli sull'implementazione dell'agente e della sua logica decisionale
+  Presentazione.pdf
+
 ## Ringraziamenti
 
 Un sentito ringraziamento a:  
