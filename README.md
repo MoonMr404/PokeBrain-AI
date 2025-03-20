@@ -91,12 +91,12 @@ L'agente utilizza una struttura ad albero per modellare le possibili decisioni d
 
 - **Poke_Brain**: modulo principale che implementa la logica dell'agente intelligente e la costruzione dell'albero di decisione.
 - **Documentation**: sezione contenente informazioni dettagliate su diversi aspetti del progetto, tra cui:
-  PokeBrain.pdf:
-  - Meccaniche e caratteristiche dei Pokémon
-  - Struttura e funzionamento di Pokémon Showdown
-  - Descrizione della libreria utilizzata per l'interazione con il gioco
-  - Dettagli sull'implementazione dell'agente e della sua logica decisionale
-  Presentazione.pdf
+  - PokeBrain.pdf:
+    - Meccaniche e caratteristiche dei Pokémon
+    - Struttura e funzionamento di Pokémon Showdown
+    - Descrizione della libreria utilizzata per l'interazione con il gioco
+    - Dettagli sull'implementazione dell'agente e della sua logica decisionale
+  - Presentazione.pdf
 
 ## Ringraziamenti
 
